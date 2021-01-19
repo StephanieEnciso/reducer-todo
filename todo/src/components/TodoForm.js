@@ -27,8 +27,10 @@ function TodoForm(props) {
                type = 'text' 
                name = 'todo' 
                onChange = {handleChange} />
-               <button>Add Todo</button>
-               <button onClick = {handleClear}>Clear Completed</button>
+               <div className = 'btnDiv'>
+                <button>Add Todo</button>
+                <button onClick = {handleClear}>Clear Completed</button>
+               </div>
            </form>
     )
 
